@@ -10,7 +10,7 @@
 
 ### Links
 
-- Solution URL:
+- Solution URL: https://github.com/shadymo2291/profile-card-component-solution
 
 ### Built with
 
@@ -22,33 +22,33 @@
 
 ### What I learned
 
-in this project i used some CSS properties to help for responsive font size, such as @media
+In this project, I used some CSS properties to help with responsive font size, such as @media
 and pseudo-elements
 
 To see how you can add code snippets, see below:
 
 main {
-display: flex !important;
-width: 800px;
-height: 600px;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
+  display: flex !important;
+  width: 800px;
+  height: 600px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 main::before {
-content: "";
-width: 600px;
-height: 600px;
-background-image: url(../images/bg-pattern-top.svg);
-background-size: cover;
-position: absolute;
-top: -60%;
-left: -45%;
-transform: scale(1.4) rotate(353deg);
+  content: "";
+  width: 600px;
+  height: 600px;
+  background-image: url(../images/bg-pattern-top.svg);
+  background-size: cover;
+  position: absolute;
+  top: -60%;
+  left: -45%;
+  transform: scale(1.4) rotate(353deg);
 }
 
 ### Continued development
